@@ -17,4 +17,6 @@ public class DomainLogger {
     public void info(String msg, Object... args) { logger.info(msg, args); }
     public void warn(String msg, Object... args) { logger.warn(msg, args); }
     public void error(String msg, Object... args) { logger.error(msg, args); }
+    public void debug(String msg, Object... args) { logger.debug(msg, args); }
+    public void trace(String msg, Object... args) { logger.trace(msg, args); }
 }
