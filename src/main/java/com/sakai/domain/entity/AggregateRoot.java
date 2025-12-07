@@ -17,7 +17,14 @@ public abstract class AggregateRoot<ID> extends BaseEntity<ID> {
     public void addDomainEvent(DomainEvent event) {
         domainEvents.add(event);
     }
+
     public void clearDomainEvents() {
         domainEvents.clear();
+    }
+
+    public List<DomainEvent> pullDomainEvents() {
+        var events = List.copyOf(domainEvents);
+        this.clearDomainEvents();
+        return events;
     }
 }

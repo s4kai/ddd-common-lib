@@ -1,8 +1,8 @@
 package com.sakai.domain.events;
 
-import com.sakai.domain.entity.AggregateRoot;
+import java.util.List;
 
 public interface DomainEventPublisher {
     void publish(DomainEvent event);
-    void publish(AggregateRoot<?> aggregateRoot);
+    void publishAllEvents(List<DomainEvent> events);
 }
