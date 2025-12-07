@@ -1,4 +1,4 @@
-package exception;
+package com.sakai.exception;
 
 
 public class BusinessException extends DomainException {

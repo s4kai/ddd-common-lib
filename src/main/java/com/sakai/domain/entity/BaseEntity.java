@@ -1,4 +1,4 @@
-package domain.entity;
+package com.sakai.domain.entity;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

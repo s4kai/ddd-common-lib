@@ -1,4 +1,4 @@
-package security;
+package com.sakai.security;
 
 import java.util.Set;
 

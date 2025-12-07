@@ -1,6 +1,6 @@
-package domain.entity;
+package com.sakai.domain.entity;
 
-import domain.events.DomainEvent;
+import com.sakai.domain.events.DomainEvent;
 import lombok.Getter;
 
 import java.util.ArrayList;

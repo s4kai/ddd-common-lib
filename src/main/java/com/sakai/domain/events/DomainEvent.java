@@ -1,4 +1,4 @@
-package domain.events;
+package com.sakai.domain.events;
 
 import java.time.Instant;
 

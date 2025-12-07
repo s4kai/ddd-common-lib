@@ -1,4 +1,4 @@
-package exception;
+package com.sakai.exception;
 
 import lombok.Getter;
 

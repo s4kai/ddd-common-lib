@@ -1,4 +1,6 @@
-package domain.objectvalue;
+package com.sakai.domain.objects;
+
+import lombok.Getter;
 
 import java.util.Objects;
 

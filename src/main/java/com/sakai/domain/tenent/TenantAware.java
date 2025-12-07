@@ -1,4 +1,4 @@
-package domain.tenent;
+package com.sakai.domain.tenent;
 
 public interface TenantAware {
     String getTenantId();

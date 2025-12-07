@@ -1,6 +1,6 @@
-package domain.events;
+package com.sakai.domain.events;
 
-import domain.entity.AggregateRoot;
+import com.sakai.domain.entity.AggregateRoot;
 
 public interface DomainEventPublisher {
     void publish(DomainEvent event);
